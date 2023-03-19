@@ -35,5 +35,5 @@ while flag:
       case "2":
         practice()
         continue
-  else:
-    print("No valid choice entered. Try again...")
+
+  print("No valid choice entered. Try again...")
