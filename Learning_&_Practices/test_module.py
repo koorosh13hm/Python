@@ -32,6 +32,13 @@ print(message)
 print("\n")
 
 
+""" Multiple Assignments In Python """
+# First Way:
+first_name, last_name, age = "koorosh", "sadeghi tehran", 44
+# Second Way:
+prince_1 = prince_2 = prince_3 = prince_4 = 177
+
+
 print("-----------------------------------------------------------------")
 """ Builtin String Functions: variable.title() """
 print("title() function for both first name and last_name "
