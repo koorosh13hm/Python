@@ -25,3 +25,9 @@ print("Age's variable type is:\n\t", type(age))
 print("\n")
 
 
+print("-----------------------------------------------------------------")
+""" Concatenating string variable with number ones """
+message = first_name +" "+ last_name + "'s age is:\n\t" + str(age)
+print(message)
+print("\n")
+
