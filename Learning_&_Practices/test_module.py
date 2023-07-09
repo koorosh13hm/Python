@@ -42,8 +42,8 @@ prince_1 = prince_2 = prince_3 = prince_4 = 177
 print("-----------------------------------------------------------------")
 """ Builtin String Functions: String's length """
 print("Here are the different string variables' lengths:")
-print("\tFirst Names Length: " + str(len(first_name)))
-print("\tFirst Names Length: " + str(len(last_name)))
+print("\tFirst Name's Length: " + str(len(first_name)))
+print("\tLast Name's Length: " + str(len(last_name)))
 print("\n")
 
 
