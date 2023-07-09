@@ -31,3 +31,12 @@ message = first_name +" "+ last_name + "'s age is:\n\t" + str(age)
 print(message)
 print("\n")
 
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.title() """
+print("title() function for both first name and last_name "
+      "variables:\n\t" + first_name.title() +" "+
+      last_name.title())
+print("\n")
+
+
