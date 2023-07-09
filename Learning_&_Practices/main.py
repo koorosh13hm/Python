@@ -1,1 +1,2 @@
-print("Hi, having an access token for this repo [Starting the branch `learn`].")
+from test_module import *
+
