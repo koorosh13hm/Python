@@ -55,3 +55,36 @@ print("title() function for both first name and last_name ",
 print("\n")
 
 
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.upper() """
+print("upper() function for both first name and last_name ",
+      "variables:\n\t" + first_name.upper() + " " +
+      last_name.upper())
+print("\n")
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.lower() """
+print("lower() function for both first name and last_name ",
+      "variables:\n\t" + first_name.lower() + " " +
+      last_name.lower())
+print("\n")
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.find() """
+print("find() function for both first name and last_name ",
+      "variables:\n\t" + str(first_name.find("k")) + " " +
+      str(last_name.find("t")))
+print("\n")
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.isdigit() """
+name_1 = "Barcelona"
+name_2 = "2675874"
+print("name_1.isdigit():", name_1.isdigit())
+print("name_2.isdigit():", name_2.isdigit())
+print("\n")
+
+
