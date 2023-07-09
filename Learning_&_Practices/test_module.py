@@ -40,6 +40,14 @@ prince_1 = prince_2 = prince_3 = prince_4 = 177
 
 
 print("-----------------------------------------------------------------")
+""" Builtin String Functions: String's length """
+print("Here are the different string variables' lengths:")
+print("\tFirst Names Length: " + str(len(first_name)))
+print("\tFirst Names Length: " + str(len(last_name)))
+print("\n")
+
+
+print("-----------------------------------------------------------------")
 """ Builtin String Functions: variable.title() """
 print("title() function for both first name and last_name "
       "variables:\n\t" + first_name.title() +" "+
