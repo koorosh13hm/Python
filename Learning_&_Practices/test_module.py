@@ -83,8 +83,63 @@ print("-----------------------------------------------------------------")
 """ Builtin String Functions: variable.isdigit() """
 name_1 = "Barcelona"
 name_2 = "2675874"
+name_3 = "K1O2O3R4O5S6H7"
 print("name_1.isdigit():", name_1.isdigit())
+print("name_2.isdigit():", name_2.isdigit())
 print("name_2.isdigit():", name_2.isdigit())
 print("\n")
 
 
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.isalpha() """
+# To check if your string contains alphabetical letters
+name_1 = "Barcelona"
+name_2 = "2675874"
+name_3 = "K1O2O3R4O5S6H7"
+print("name_1.isdigit():", name_1.isdigit())
+print("name_2.isdigit():", name_2.isdigit())
+print("name_2.isdigit():", name_2.isdigit())
+print("\n")
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.capitalize() """
+name = "KOOROSH SADEGHI TEHRAN"
+print(name.capitalize())
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.count() """
+name = "KOOROSH SADEGHI TEHRAN"
+print("Count of `O`:", name.count("o"))
+print("Count of `O`:", name.count("O"))
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: variable.replace("which", "with what") """
+""" Builtin String Functions: variable.count() """
+name = "KOOROSH SADEGHI TEHRAN"
+print("After replacing `o` with `a`:", name.replace("o", "a"))
+print("After replacing `O` with `X`:", name.replace("O", "X"))
+
+
+print("-----------------------------------------------------------------")
+""" A very cool trick to print many of a sequence """
+print(8 * "%")
+print(8 * "@@@@@@@@")
+print(name * 5)
+
+
+print("-----------------------------------------------------------------")
+"""  """
+
+
+
+
+
+
+
+
+"""
+print("-----------------------------------------------------------------")
+"""
