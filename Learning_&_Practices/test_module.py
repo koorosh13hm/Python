@@ -106,6 +106,7 @@ print("-----------------------------------------------------------------")
 """ Builtin String Functions: variable.capitalize() """
 name = "KOOROSH SADEGHI TEHRAN"
 print(name.capitalize())
+print("\n\n")
 
 
 print("-----------------------------------------------------------------")
@@ -113,6 +114,7 @@ print("-----------------------------------------------------------------")
 name = "KOOROSH SADEGHI TEHRAN"
 print("Count of `O`:", name.count("o"))
 print("Count of `O`:", name.count("O"))
+print("\n\n")
 
 
 print("-----------------------------------------------------------------")
@@ -121,13 +123,21 @@ print("-----------------------------------------------------------------")
 name = "KOOROSH SADEGHI TEHRAN"
 print("After replacing `o` with `a`:", name.replace("o", "a"))
 print("After replacing `O` with `X`:", name.replace("O", "X"))
+print("\n\n")
 
 
 print("-----------------------------------------------------------------")
 """ A very cool trick to print many of a sequence """
 print(8 * "%")
 print(8 * "@@@@@@@@")
-print(name * 5)
+print(name * 5, "\n\n")
+
+
+print("-----------------------------------------------------------------")
+""" Builtin String Functions: Slicing """
+band_name = "   Led Zepplin"
+sliced_name = band_name[3:6]
+print(sliced_name, "\n\n")
 
 
 print("-----------------------------------------------------------------")
@@ -140,6 +150,56 @@ print("-----------------------------------------------------------------")
 
 
 
-"""
+
+
+
+
+
+
+
+
+
 print("-----------------------------------------------------------------")
-"""
+"""  """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
